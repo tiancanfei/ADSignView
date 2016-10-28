@@ -7,8 +7,12 @@
 //
 
 #import "ViewController.h"
+#import "JLBSignView.h"
 
 @interface ViewController ()
+
+/**写字板*/
+@property (nonatomic, strong) JLBSignView *signView;
 
 @end
 
@@ -16,7 +20,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
+    self.signView = [[JLBSignView alloc] initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height)];
+    
+    [self.view addSubview:self.signView];
 }
 
 
