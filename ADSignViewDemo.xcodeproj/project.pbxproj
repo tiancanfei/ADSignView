@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC0EC9301DC35CEB000E91D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC0EC92F1DC35CEB000E91D3 /* main.m */; };
+		AC0EC9331DC35CEB000E91D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC0EC9321DC35CEB000E91D3 /* AppDelegate.m */; };
+		AC0EC9361DC35CEB000E91D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC0EC9351DC35CEB000E91D3 /* ViewController.m */; };
+		AC0EC9391DC35CEB000E91D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC0EC9371DC35CEB000E91D3 /* Main.storyboard */; };
+		AC0EC93B1DC35CEB000E91D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC0EC93A1DC35CEB000E91D3 /* Assets.xcassets */; };
+		AC0EC93E1DC35CEB000E91D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC0EC93C1DC35CEB000E91D3 /* LaunchScreen.storyboard */; };
+		AC0EC9491DC35CEB000E91D3 /* ADSignViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC0EC9481DC35CEB000E91D3 /* ADSignViewDemoTests.m */; };
+		AC0EC9541DC35CEB000E91D3 /* ADSignViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC0EC9531DC35CEB000E91D3 /* ADSignViewDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC0EC9451DC35CEB000E91D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC0EC9231DC35CEB000E91D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC0EC92A1DC35CEB000E91D3;
+			remoteInfo = ADSignViewDemo;
+		};
+		AC0EC9501DC35CEB000E91D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC0EC9231DC35CEB000E91D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC0EC92A1DC35CEB000E91D3;
+			remoteInfo = ADSignViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC0EC92B1DC35CEB000E91D3 /* ADSignViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ADSignViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC0EC92F1DC35CEB000E91D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AC0EC9311DC35CEB000E91D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AC0EC9321DC35CEB000E91D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AC0EC9341DC35CEB000E91D3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AC0EC9351DC35CEB000E91D3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AC0EC9381DC35CEB000E91D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC0EC93A1DC35CEB000E91D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC0EC93D1DC35CEB000E91D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC0EC93F1DC35CEB000E91D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC0EC9441DC35CEB000E91D3 /* ADSignViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ADSignViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC0EC9481DC35CEB000E91D3 /* ADSignViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADSignViewDemoTests.m; sourceTree = "<group>"; };
+		AC0EC94A1DC35CEB000E91D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC0EC94F1DC35CEB000E91D3 /* ADSignViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ADSignViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC0EC9531DC35CEB000E91D3 /* ADSignViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADSignViewDemoUITests.m; sourceTree = "<group>"; };
+		AC0EC9551DC35CEB000E91D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC0EC9281DC35CEB000E91D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC0EC9411DC35CEB000E91D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC0EC94C1DC35CEB000E91D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC0EC9221DC35CEB000E91D3 = {
+			isa = PBXGroup;
+			children = (
+				AC0EC92D1DC35CEB000E91D3 /* ADSignViewDemo */,
+				AC0EC9471DC35CEB000E91D3 /* ADSignViewDemoTests */,
+				AC0EC9521DC35CEB000E91D3 /* ADSignViewDemoUITests */,
+				AC0EC92C1DC35CEB000E91D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC0EC92C1DC35CEB000E91D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC0EC92B1DC35CEB000E91D3 /* ADSignViewDemo.app */,
+				AC0EC9441DC35CEB000E91D3 /* ADSignViewDemoTests.xctest */,
+				AC0EC94F1DC35CEB000E91D3 /* ADSignViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC0EC92D1DC35CEB000E91D3 /* ADSignViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				AC0EC9311DC35CEB000E91D3 /* AppDelegate.h */,
+				AC0EC9321DC35CEB000E91D3 /* AppDelegate.m */,
+				AC0EC9341DC35CEB000E91D3 /* ViewController.h */,
+				AC0EC9351DC35CEB000E91D3 /* ViewController.m */,
+				AC0EC9371DC35CEB000E91D3 /* Main.storyboard */,
+				AC0EC93A1DC35CEB000E91D3 /* Assets.xcassets */,
+				AC0EC93C1DC35CEB000E91D3 /* LaunchScreen.storyboard */,
+				AC0EC93F1DC35CEB000E91D3 /* Info.plist */,
+				AC0EC92E1DC35CEB000E91D3 /* Supporting Files */,
+			);
+			path = ADSignViewDemo;
+			sourceTree = "<group>";
+		};
+		AC0EC92E1DC35CEB000E91D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC0EC92F1DC35CEB000E91D3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AC0EC9471DC35CEB000E91D3 /* ADSignViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC0EC9481DC35CEB000E91D3 /* ADSignViewDemoTests.m */,
+				AC0EC94A1DC35CEB000E91D3 /* Info.plist */,
+			);
+			path = ADSignViewDemoTests;
+			sourceTree = "<group>";
+		};
+		AC0EC9521DC35CEB000E91D3 /* ADSignViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC0EC9531DC35CEB000E91D3 /* ADSignViewDemoUITests.m */,
+				AC0EC9551DC35CEB000E91D3 /* Info.plist */,
+			);
+			path = ADSignViewDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC0EC92A1DC35CEB000E91D3 /* ADSignViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC0EC9581DC35CEB000E91D3 /* Build configuration list for PBXNativeTarget "ADSignViewDemo" */;
+			buildPhases = (
+				AC0EC9271DC35CEB000E91D3 /* Sources */,
+				AC0EC9281DC35CEB000E91D3 /* Frameworks */,
+				AC0EC9291DC35CEB000E91D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ADSignViewDemo;
+			productName = ADSignViewDemo;
+			productReference = AC0EC92B1DC35CEB000E91D3 /* ADSignViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC0EC9431DC35CEB000E91D3 /* ADSignViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC0EC95B1DC35CEB000E91D3 /* Build configuration list for PBXNativeTarget "ADSignViewDemoTests" */;
+			buildPhases = (
+				AC0EC9401DC35CEB000E91D3 /* Sources */,
+				AC0EC9411DC35CEB000E91D3 /* Frameworks */,
+				AC0EC9421DC35CEB000E91D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC0EC9461DC35CEB000E91D3 /* PBXTargetDependency */,
+			);
+			name = ADSignViewDemoTests;
+			productName = ADSignViewDemoTests;
+			productReference = AC0EC9441DC35CEB000E91D3 /* ADSignViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC0EC94E1DC35CEB000E91D3 /* ADSignViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC0EC95E1DC35CEB000E91D3 /* Build configuration list for PBXNativeTarget "ADSignViewDemoUITests" */;
+			buildPhases = (
+				AC0EC94B1DC35CEB000E91D3 /* Sources */,
+				AC0EC94C1DC35CEB000E91D3 /* Frameworks */,
+				AC0EC94D1DC35CEB000E91D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC0EC9511DC35CEB000E91D3 /* PBXTargetDependency */,
+			);
+			name = ADSignViewDemoUITests;
+			productName = ADSignViewDemoUITests;
+			productReference = AC0EC94F1DC35CEB000E91D3 /* ADSignViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC0EC9231DC35CEB000E91D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = andehang;
+				TargetAttributes = {
+					AC0EC92A1DC35CEB000E91D3 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					AC0EC9431DC35CEB000E91D3 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AC0EC92A1DC35CEB000E91D3;
+					};
+					AC0EC94E1DC35CEB000E91D3 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AC0EC92A1DC35CEB000E91D3;
+					};
+				};
+			};
+			buildConfigurationList = AC0EC9261DC35CEB000E91D3 /* Build configuration list for PBXProject "ADSignViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC0EC9221DC35CEB000E91D3;
+			productRefGroup = AC0EC92C1DC35CEB000E91D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC0EC92A1DC35CEB000E91D3 /* ADSignViewDemo */,
+				AC0EC9431DC35CEB000E91D3 /* ADSignViewDemoTests */,
+				AC0EC94E1DC35CEB000E91D3 /* ADSignViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC0EC9291DC35CEB000E91D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC0EC93E1DC35CEB000E91D3 /* LaunchScreen.storyboard in Resources */,
+				AC0EC93B1DC35CEB000E91D3 /* Assets.xcassets in Resources */,
+				AC0EC9391DC35CEB000E91D3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC0EC9421DC35CEB000E91D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC0EC94D1DC35CEB000E91D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC0EC9271DC35CEB000E91D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC0EC9361DC35CEB000E91D3 /* ViewController.m in Sources */,
+				AC0EC9331DC35CEB000E91D3 /* AppDelegate.m in Sources */,
+				AC0EC9301DC35CEB000E91D3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC0EC9401DC35CEB000E91D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC0EC9491DC35CEB000E91D3 /* ADSignViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC0EC94B1DC35CEB000E91D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC0EC9541DC35CEB000E91D3 /* ADSignViewDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC0EC9461DC35CEB000E91D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC0EC92A1DC35CEB000E91D3 /* ADSignViewDemo */;
+			targetProxy = AC0EC9451DC35CEB000E91D3 /* PBXContainerItemProxy */;
+		};
+		AC0EC9511DC35CEB000E91D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC0EC92A1DC35CEB000E91D3 /* ADSignViewDemo */;
+			targetProxy = AC0EC9501DC35CEB000E91D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC0EC9371DC35CEB000E91D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC0EC9381DC35CEB000E91D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC0EC93C1DC35CEB000E91D3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC0EC93D1DC35CEB000E91D3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC0EC9561DC35CEB000E91D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC0EC9571DC35CEB000E91D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC0EC9591DC35CEB000E91D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ADSignViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bjwlade.com.ADSignViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AC0EC95A1DC35CEB000E91D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ADSignViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bjwlade.com.ADSignViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AC0EC95C1DC35CEB000E91D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ADSignViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bjwlade.com.ADSignViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ADSignViewDemo.app/ADSignViewDemo";
+			};
+			name = Debug;
+		};
+		AC0EC95D1DC35CEB000E91D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ADSignViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bjwlade.com.ADSignViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ADSignViewDemo.app/ADSignViewDemo";
+			};
+			name = Release;
+		};
+		AC0EC95F1DC35CEB000E91D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ADSignViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bjwlade.com.ADSignViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ADSignViewDemo;
+			};
+			name = Debug;
+		};
+		AC0EC9601DC35CEB000E91D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ADSignViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bjwlade.com.ADSignViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ADSignViewDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC0EC9261DC35CEB000E91D3 /* Build configuration list for PBXProject "ADSignViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC0EC9561DC35CEB000E91D3 /* Debug */,
+				AC0EC9571DC35CEB000E91D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC0EC9581DC35CEB000E91D3 /* Build configuration list for PBXNativeTarget "ADSignViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC0EC9591DC35CEB000E91D3 /* Debug */,
+				AC0EC95A1DC35CEB000E91D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AC0EC95B1DC35CEB000E91D3 /* Build configuration list for PBXNativeTarget "ADSignViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC0EC95C1DC35CEB000E91D3 /* Debug */,
+				AC0EC95D1DC35CEB000E91D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AC0EC95E1DC35CEB000E91D3 /* Build configuration list for PBXNativeTarget "ADSignViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC0EC95F1DC35CEB000E91D3 /* Debug */,
+				AC0EC9601DC35CEB000E91D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC0EC9231DC35CEB000E91D3 /* Project object */;
+}
