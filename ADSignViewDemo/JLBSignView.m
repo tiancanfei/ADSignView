@@ -53,7 +53,7 @@ static CGPoint midpoint(CGPoint p0, CGPoint p1) {
         UIColor *color = [UIColor redColor];
         [color set]; //设置线条颜色
         
-        currentPath.lineCapStyle = kCGLineCapSquare; //线条拐角
+        currentPath.lineCapStyle = kCGLineCapRound; //线条拐角
         currentPath.lineJoinStyle = kCGLineCapRound; //终点处理
         
         [currentPath stroke];
