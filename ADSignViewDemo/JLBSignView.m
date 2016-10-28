@@ -47,18 +47,6 @@ static CGPoint midpoint(CGPoint p0, CGPoint p1) {
 
 - (void)drawRect:(CGRect)rect
 {
-    
-//    self.currentPath.lineWidth = 5.0;
-//    
-//    UIColor *color = [UIColor redColor];
-//    [color set]; //设置线条颜色
-//    
-//    self.currentPath.lineCapStyle = kCGLineCapSquare; //线条拐角
-//    self.currentPath.lineJoinStyle = kCGLineCapRound; //终点处理
-//    
-//    [self.currentPath stroke];
-//    
-//    
     [self.paths enumerateObjectsUsingBlock:^(UIBezierPath *currentPath, NSUInteger idx, BOOL * _Nonnull stop) {
         currentPath.lineWidth = 5.0;
         
@@ -72,26 +60,6 @@ static CGPoint midpoint(CGPoint p0, CGPoint p1) {
     }];
 }
 
-//- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
-//{
-//    UITouch *touch = touches.anyObject;
-//    CGPoint point = [touch locationInView:self];
-//    self.previousPoint = point;
-//    self.currentPath = [UIBezierPath bezierPath];
-//    [self.currentPath moveToPoint:point];
-//}
-
-//- (void)touchesMoved:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
-//{
-//    UITouch *touch = touches.anyObject;
-//    CGPoint point = [touch locationInView:self];
-//    CGPoint midPoint = midpoint(self.previousPoint, point);
-////    [self.currentPath addLineToPoint:point];
-////    [self.paths addObject:self.currentPath];
-//    [self.currentPath addQuadCurveToPoint:midPoint controlPoint:self.previousPoint];
-//    [self.paths addObject:self.currentPath];
-//    [self setNeedsDisplay];
-//}
 
 
 
@@ -102,9 +70,9 @@ static CGPoint midpoint(CGPoint p0, CGPoint p1) {
     if (pan.state == UIGestureRecognizerStateBegan) {
         self.currentPath = [UIBezierPath bezierPath];
         [self.currentPath moveToPoint:currentPoint];
+        [self.paths addObject:self.currentPath];
     } else if (pan.state == UIGestureRecognizerStateChanged) {
         [self.currentPath addQuadCurveToPoint:midPoint controlPoint:self.previousPoint];
-        [self.paths addObject:self.currentPath];
     }
     
     self.previousPoint = currentPoint;
