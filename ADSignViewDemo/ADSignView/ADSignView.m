@@ -1,14 +1,14 @@
 //
-//  JLBSignView.m
-//  SmartCampusSever
+//  ADSignView.m
+//  ADSignViewDemo
 //
-//  Created by andehang on 2016/10/28.
-//  Copyright © 2016年 jinlinbao. All rights reserved.
+//  Created by andehang on 2017/2/9.
+//  Copyright © 2017年 andehang. All rights reserved.
 //
 
-#import "JLBSignView.h"
+#import "ADSignView.h"
 
-@interface JLBSignView()
+@interface ADSignView()
 
 /**路径集合*/
 @property (nonatomic, strong)  NSMutableArray *paths;
@@ -21,12 +21,12 @@
 
 @end
 
-@implementation JLBSignView
+@implementation ADSignView
 
 - (instancetype)initWithFrame:(CGRect)frame
 {
     if (self = [super initWithFrame:frame]) {
-        self.backgroundColor = [UIColor whiteColor];
+        self.backgroundColor = [[UIColor whiteColor] colorWithAlphaComponent:0];
         self.userInteractionEnabled = YES;
         UIPanGestureRecognizer *pan = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(pan:)];
         [self addGestureRecognizer:pan];
@@ -97,6 +97,24 @@ static CGPoint midpoint(CGPoint p0, CGPoint p1) {
 {
     [self.paths removeAllObjects];
     [self setNeedsDisplay];
+}
+
+- (void)saveSign:(void(^)(UIImage *image,NSData *imageData))saveImageBlock
+{
+    UIGraphicsBeginImageContext(self.bounds.size);
+    [self.layer renderInContext:UIGraphicsGetCurrentContext()];
+    
+    UIImage *signImage = UIGraphicsGetImageFromCurrentImageContext();
+    
+    //    NSData *signImageData = UIImageJPEGRepresentation(signImage, 1.0);
+    
+    //png格式
+    NSData *signImageData = UIImagePNGRepresentation(signImage);
+    
+    if (saveImageBlock)
+    {
+        saveImageBlock(signImage,signImageData);
+    }
 }
 
 @end
